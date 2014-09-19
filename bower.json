@@ -1,0 +1,21 @@
+{
+  "name": "compare-unlock-codes",
+  "version": "1.0",
+  "homepage": "https://github.com/reiniergs/compare-unlock-codes",
+  "description": "compare unlock codes for cellphones",
+  "authors": [
+    "RG"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "foundation": "~5.4.4"
+  }
+}
