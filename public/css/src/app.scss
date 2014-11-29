@@ -1,0 +1,22 @@
+@import "foundation/scss/normalize";
+@import "foundation/scss/foundation"; 
+@import "variables";
+@import "../../font/font-awesome/font-awesome";
+@import "fonts"; 
+
+@import "componentList";   
+
+
+
+#content {
+	margin : 20px 0px;
+	border: 1px solid $bg-main-color;
+}
+
+.name {
+	h1 {
+		text-transform: uppercase;
+		font-family: 'Bree Serif', serif;
+	}
+}
+

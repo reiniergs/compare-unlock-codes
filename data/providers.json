@@ -1,0 +1,21 @@
+[
+    { 
+   	    "name"     : "GSMFather.com", 
+   	    "url"      : "http://www.gsmfather.com",
+   	    "user"     : "guest",
+   	    "API-KEY"  : "aka123-kjhuy123-lkkh123"
+   	},
+   	{
+ 		"name"     : "UnlockCodes4Cell.com", 
+   	    "url"      : "http://www.unlockcodes4cell.com",
+   	    "user"     : "guest",
+   	    "API-KEY"  : "aka123-kjhuy123-lkkh123"
+   	},
+   	{
+   		"name"     : "Kebola.net", 
+   	    "url"      : "http://www.unlockcodes4cell.com",
+   	    "user"     : "guest",
+   	    "API-KEY"  : "aka123-kjhuy123-lkkh123"
+   	}    
+
+]

@@ -1,0 +1,37 @@
+.listComp {
+	margin: 20px 0px;
+    padding: 10px;
+    table {
+    	list-style: none;
+    	margin: 0px;
+        border-radius: 4px;
+    	tr {
+    		height: 35px;
+    		padding: 5px 5px;
+    		cursor: pointer;
+    		&:hover {
+    			background-color: $bg-hover-color;
+    		}
+    	}
+        h2.componentName {
+            font-size: 30px;
+        }
+        span.author {
+            font-size: 12px;
+        }
+    }
+    .search {
+    	position: relative;
+    	&:after {
+    		@include fa-icon();
+    		content: "\f002";
+    		position: absolute;
+    		top: 10px;
+    		right: 25px;
+    		color: $disabled-color;
+    	}
+    	input {
+    		padding-right: 35px;
+    	}
+    }
+}	
