@@ -33,6 +33,19 @@ module.exports = function(grunt) {
                   cssDir: 'public/css/built'
                 }
             }
+        },
+        concurrent: {
+            target: {
+                tasks: ['nodemon', 'watch'],
+                options: {
+                    logConcurrentOutput: true
+                }
+            }
+        },
+        nodemon: {
+            dev: {
+                script: 'app.js'
+            }
         }
     });
 
@@ -40,8 +53,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-react');
     grunt.loadNpmTasks('grunt-contrib-compass');
+    grunt.loadNpmTasks('grunt-nodemon');
+    grunt.loadNpmTasks('grunt-concurrent');
 
-    grunt.registerTask('default', ['watch']);
+    grunt.registerTask('default', ['concurrent:target']);
     grunt.registerTask('jsx',['react']);
     grunt.registerTask('styles',['compass']);
     

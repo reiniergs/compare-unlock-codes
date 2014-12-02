@@ -18,7 +18,10 @@
     "express3-handlebars": "^0.5.2",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
+    "grunt-concurrent": "^1.0.0",
     "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.3.0",
     "grunt-react": "^0.10.0",
     "grunt-reactjsx": "^0.2.4"
   }
